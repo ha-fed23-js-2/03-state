@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import Emotion from './Emotions.jsx'
+import DoItAgainBetter from './DoItAgainBetter.jsx'
 
 function App() {
 	const [count, setCount] = useState(0)
@@ -25,6 +26,7 @@ function App() {
 			</section>
 
 			<Emotion />
+			<DoItAgainBetter />
 		</main>
 	)
 }
